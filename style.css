@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.common-container{
+     margin: 50px 120px; 
+}
+.banner-img{  
+  width: 1140px;
+  height: 500px;
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./Banner\ Image.png);
+  background-size:  cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.banner-text{
+ color: #FFF; 
+padding-top: 120px;  
+text-align: center;
+font-family: Merriweather;
+font-size: 34px;
+font-weight: 900;
+line-height: 70px; 
+}
+/* banner end  */
