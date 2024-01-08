@@ -225,6 +225,8 @@ padding-bottom: 40px;
     padding: 10px 0px 10px 10px;
     
 }
+
+/* subcription section  */
 .sub-container{
     width: 1140px;
     height: 420px;
@@ -258,3 +260,48 @@ padding-bottom: 20px;
    margin-left: 500px;
    padding-bottom: 40px;
 }
+ .sub-btn{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    background: #FFF;
+    width: 500px;
+    height: 60px;
+    margin-left: 300px;
+    border: 0px;
+
+ }
+ .btn-inside-txt{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    /* width: 350px;*/
+    height: 57px; 
+    color: #FFF;
+  text-align: center;
+  padding: 15px 30px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: 0px;
+    
+
+ } 
+ .btn-input{
+    border-radius: 0px 0px 50px 50px;
+    width: 360px;
+    height: 58px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center left;
+    padding: 15px 0px 15px 45px; 
+    font-family: Inter;
+     font-size: 18px;
+    font-weight: 400;
+    
+
+ }
+ input[type="email"]
+ {
+    border: 0px;
+ }
