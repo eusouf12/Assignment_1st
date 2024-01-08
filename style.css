@@ -57,8 +57,15 @@ font-weight: 700;
 padding-bottom: 40px;
 }
 .img-deal{
-    size-adjust: auto;
+     size-adjust: auto; 
    padding-left: 200px;
+   padding-bottom: 80px;
+   
+}
+.img-deal-new{
+    width: 700px;
+height: 500px;
+flex-shrink: 0;
 }
 
 /* <!-- 65% Off Section  end--> */
@@ -109,8 +116,19 @@ line-height: 30px;
 .party-img{
     display: flex;
     justify-content: center;
-    padding: 20px 10px 20px 0px;
-}  
+    padding: 80px 50px 0px 0px;
+} 
+.party-img-siz{
+    width: 250px;
+    height: 380px;
+
+} 
+
+/* NEW BEST OFFER  */
+
+
+
+/* NEW BEST OFFER */
 
 /* newpark section  */
 .newpark-container{
@@ -305,3 +323,58 @@ padding-bottom: 20px;
  {
     border: 0px;
  }
+ /* footer section  */
+ footer{
+    background: #070211;
+ }
+ .footer-container
+ {
+    width: 1140px;
+    height: 500px;
+    border-radius: 16px;
+   
+ }
+ .footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 160px 40px 120px;
+ }
+ .fotter-1st{
+ color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+ }
+ .fotter-cnt{
+    display: flex; 
+   
+    gap: 19px;
+ }
+
+ .call-img{
+    height: 24px;
+    width: 24px;
+ }
+ .footer-last-txt{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px 120px 120px;
+ }
+ .footer-img{
+    padding: 40px 0px;
+     display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px;
+    margin-left: 400px;
+ }
+ .social-media{
+    height: 44px;
+    width: 44px;
+    
+ }
+ hr{
+    border-color:rgba(255, 255, 255, 0.15);
+ }
+
