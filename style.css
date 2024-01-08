@@ -285,7 +285,7 @@ line-height: 32px;
     width: 1140px;
     height: 500px;
     border-radius: 16px;
-    background-image: url('./box.png'),url('./Group\ 44.png'),url('./Rectangle\ 2.png'),url('./Rectangle\ 1.png');
+    background-image: url(./box.png),url(./Group\ 44.png),url(./Rectangle\ 2.png),url(./Rectangle\ 1.png);
     background-repeat: no-repeat;
     background-size: 450px, 250px, 1320px 120px, 350px;
     background-position: 10% 80%,76% 40%,100% 100%,100% 50%;
